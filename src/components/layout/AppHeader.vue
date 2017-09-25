@@ -24,12 +24,13 @@ export default {
 #app-header {
 	position: fixed;
 	top: 0;
-	height: 3.5rem;
+	height: 3rem;
 	background: #008dff;
 	width: 100%;
 	z-index: 9999;
-	line-height: 3.5rem;
-	padding-left: 0.75rem;
+	line-height: 3rem;
+	font-size: 2rem;
+  padding-left: 0.52rem;
 
 	#back {
 		font-size: 1.6rem;
