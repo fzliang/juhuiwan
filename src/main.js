@@ -14,7 +14,7 @@ Vue.prototype.$http = axios.create({
   timeOut: 1000,
   paramsSerializer: function(params) {
     return Qs.stringify(params, {arrayFormat: 'brackets'})
-  },
+  }
 })
 
 Vue.config.productionTip = false
