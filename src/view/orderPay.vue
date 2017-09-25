@@ -43,6 +43,7 @@
 </template>
 
 <script>
+  import qs from 'qs'
   export default {
     data() {
       return {
@@ -95,13 +96,14 @@
 
     methods: {
       pay() {
-        this.$http.post('http://47.95.10.5:8888/order/', {
-          params:{
-            id: this.ticketKindId,
-            wechatId: 'wechatId ',
-            count: this.tableData.count
-          }
-        }).then(response => {
+
+        var params = {
+          id: this.ticketKindId,
+          wechatId: 'wechatId ',
+          count: this.tableData.count
+        }
+        this.$http.post('/order/', qs.stringify(params))
+          .then(response => {
           this.shopInfo = response.data.shopInfo[0];
           this.ticketKinds = response.data.ticketTypes;
         }).catch(error => console.log(error))

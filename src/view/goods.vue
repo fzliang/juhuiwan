@@ -45,7 +45,7 @@ export default {
 
   created() {
     this.shopId = this.$route.query.shopId;
-    this.$http.get('http://47.95.10.5:8888/shop_detail/', {
+    this.$http.get('/shop_detail/', {
         params:{
           shopId: this.shopId
         }

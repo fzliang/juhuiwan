@@ -30,7 +30,7 @@
 	  },
 
 	  created() {
-      this.$http.get('http://47.95.10.5:8888/index/',{})
+      this.$http.get('/index/',{})
         .then(response => {
           this.shopList = response.data.shopList;
           this.pics = response.data.pics;

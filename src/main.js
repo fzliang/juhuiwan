@@ -6,7 +6,13 @@ import router from './router'
 import ElementUI from 'element-ui'
 
 import axios from 'axios'
-Vue.prototype.$http = axios
+
+
+Vue.prototype.$http = axios.create({
+  baseURL: 'http://47.95.10.5:8888',
+  timeOut: 1000
+})
+
 
 import 'element-ui/lib/theme-default/index.css'
 import '../static/reset.css'
