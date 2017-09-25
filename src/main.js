@@ -6,6 +6,8 @@ import router from './router'
 import ElementUI from 'element-ui'
 import axios from 'axios'
 import Qs from 'qs'
+import 'element-ui/lib/theme-default/index.css'
+import '../static/reset.css'
 
 Vue.prototype.$http = axios.create({
   baseURL: 'http://47.95.10.5:8888',
@@ -14,10 +16,6 @@ Vue.prototype.$http = axios.create({
     return Qs.stringify(params, {arrayFormat: 'brackets'})
   },
 })
-
-
-import 'element-ui/lib/theme-default/index.css'
-import '../static/reset.css'
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)
