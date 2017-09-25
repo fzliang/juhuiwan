@@ -49,7 +49,7 @@ export default {
 
 #content {
   position: absolute;
-  top: 3.5rem;
+  top: 3rem;
   bottom: 3rem;
   overflow-y: scroll;
   overflow-x: hidden;
