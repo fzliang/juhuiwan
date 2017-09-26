@@ -92,7 +92,7 @@ export default {
 #person {
 
   #userpic {
-    height: 8rem;
+    height: 128px;
     overflow-y: hidden;
     #picBg {
       filter: blur(10px)
@@ -100,38 +100,38 @@ export default {
     ul {
       list-style: none;
       position: absolute;
-      top: 0rem;
+      top: 0;
       width: 100%;
       text-align: center;
       vertical-align: middle;
-      line-height: 8rem;
-      height: 8rem;
+      line-height: 128px;
+      height: 128px;
       #picHead {
         display: inline-block;
         vertical-align: middle;
-        width: 6rem;
-        height: 6rem;
-        border: 0.1rem solid #fff;
+        width: 96px;
+        height: 96px;
+        border: 1px solid #fff;
         border-radius: 50%;
       }
     }
   }
   #userinfo {
     background-color: #fff;
-    font-size: 1.6rem;
-    height: 3.5rem;
-    line-height: 3.5rem;
-    padding-left: 0.75rem
+    font-size: 25px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 12px
   }
 
   .list {
-    padding-top: 0.75rem;
+    padding-top: 12px;
     .option {
-      padding-left: 0.75rem;
-      height: 2.5rem;
-      line-height: 2.5rem;
+      padding-left: 12px;
+      height: 40px;
+      line-height: 40px;
       background-color: #fff;
-      border-top: 0.1rem solid #ccc;
+      border-top: 1px solid #ccc;
       .title {
         display: inline-block;
         float: left;

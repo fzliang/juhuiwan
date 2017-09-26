@@ -2,32 +2,34 @@
   <div id="app-footer">
       <el-row type="flex" justify="space-around">
         <el-col :span="6">
-          <router-link to="/" tag="div">
           <div class="footer-icon" @click="menuClick(0)">
-            <i class="iconfont icon-home" v-show="menu != 0"></i>
-            <i class="iconfont icon-homefill" v-show="menu == 0"></i>
-            首页
+            <router-link to="/" tag="div">
+              <i class="iconfont icon-home" v-show="menu != 0"></i>
+              <i class="iconfont icon-homefill" v-show="menu == 0"></i>
+              首页
+            </router-link>
           </div>
-          </router-link>
         </el-col>
         <el-col :span="6">
 
-          <router-link to="/order" tag="div">
+
           <div class="footer-icon" @click="menuClick(1)">
-            <i class="iconfont icon-news_hot_light" v-show="menu != 1"></i>
-            <i class="iconfont icon-news_hot_fill_light" v-show="menu == 1"></i>
-            订单
+            <router-link to="/order" tag="div">
+              <i class="iconfont icon-news_hot_light" v-show="menu != 1"></i>
+              <i class="iconfont icon-news_hot_fill_light" v-show="menu == 1"></i>
+              订单
+            </router-link>
           </div>
-          </router-link>
+
         </el-col>
         <el-col :span="6">
-          <router-link to="/person" tag="div">
           <div class="footer-icon" @click="menuClick(2)">
-            <i class="iconfont icon-people" v-show="menu != 2"></i>
-            <i class="iconfont icon-peoplefill" v-show="menu == 2"></i>
-            我的
+            <router-link to="/person" tag="div">
+              <i class="iconfont icon-people" v-show="menu != 2"></i>
+              <i class="iconfont icon-peoplefill" v-show="menu == 2"></i>
+              我的
+            </router-link>
           </div>
-          </router-link>
         </el-col>
       </el-row>
     </div>
@@ -70,14 +72,15 @@ export default {
   background-color: #fff;
   font-family: '微软雅黑';
   z-index: 9999;
+  height: 50px;
   .footer-icon {
     margin: 0 auto;
-    padding: 0.15rem;
-    font-size: 0.75rem;
+    padding: 2px;
+    font-size: 12px;
     text-align: center;
-    width: 2rem;
+    width: 32px;
     i {
-      font-size: 2rem;
+      font-size: 32px;
     }
   }
 }

@@ -84,24 +84,24 @@ export default {
 	background-color: #fff;
 	#back {
 		position: absolute;
-		margin: 0.75rem;
-		font-size: 1.5rem;
+		margin: 12px;
+		font-size: 24px;
 		color: #fff;
 	}
 
 	#shop {
-		padding: 0.75rem;
-		border-bottom: 0.1rem solid #ccc;
+		padding: 12px;
+		border-bottom: 1px solid #ccc;
 		#shopInfo {
 			display: inline-block;
 			#shopName {
 				display: block;
-				font-size: 1.5rem;
+				font-size: 24px;
 				color: #333;
 			}
 			#shopAddr {
-				padding-top: 0.3rem;
-				font-size: 0.8rem;
+				padding-top: 9px;
+				font-size: 12px;
 				display: block;
 				color: #999;
 			}
@@ -113,31 +113,32 @@ export default {
 	}
 
 	#ticketList {
-		padding: 0.75rem;
-		border-bottom: 0.1rem solid #ccc;
+		padding: 12px;
+		border-bottom: 1px solid #ccc;
 		.ticket {
-			margin: 0 0.25rem 0.3rem 0;
+			margin: 0 4px 1px 0;
 		}
 		#buy {
 			display: block;
-			margin: 1rem auto 0 auto;
+			margin: 16px auto 0 auto;
 		}
 	}
 
 	#detail {
-		padding: 0.75rem;
-		border-bottom: 0.1rem solid #ccc;
+		padding: 12px;
+		border-bottom: 1px solid #ccc;
 		.ticketDetail {
-			line-height: 1.2rem;
-			padding-bottom: 0.5rem;
+			line-height: 22px;
+			padding-bottom: 8px;
 			.name {
 				display: block;
-				font-size: 1rem;
+				font-size: 16px;
 				color: #333;
 			}
 			.ticket_detail {
-				padding-left: 2rem;
-				font-size: 0.8rem;
+        display: inline-block;
+				padding-left: 32px;
+				font-size: 13px;
 				color: #666;
 			}
 		}

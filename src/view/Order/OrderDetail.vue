@@ -114,26 +114,25 @@
     #order {
       background-color: #fff;
 
-
       .orderCodeTitle {
         clear: both;
         display: block;
         text-align: center;
         color: #666;
-        font-size: 1rem;
-        line-height: 1.5rem;
+        font-size: 16px;
+        line-height: 24px;
         border-bottom: 1px solid #ccc;
       }
       .orderCode {
         display: block;
         text-align: center;
         color: #666;
-        font-size: 2rem;
-        line-height: 4rem;
+        font-size: 32px;
+        line-height: 84px;
       }
 
       .top3 {
-        margin-top: 2rem;
+        margin-top: 32px;
 
       }
       #order {
@@ -143,50 +142,50 @@
 
       #orderInfo {
         width: 100%;
-        border-top: 0.1rem solid #ccc;
+        border-top: 2px solid #ccc;
         background-color: #fff;
         overflow: hidden;
         float: left;
-        padding: 0.75rem;
+        padding: 12px;
       }
 
       .shopimg {
-        width: 5rem;
+        width: 80px;
         float: left;
       }
 
       .shopDetail {
         float: left;
-        padding-top: 0.3rem;
-        padding-left: 0.5rem;
+        padding-top: 2px;
+        padding-left: 8px;
         overflow: hidden;
         .shopName {
           display: block;
           float: none;
           font-family: '微软雅黑';
-          font-size: 1.25rem;
-          margin-bottom: 0.4rem;
+          font-size: 20px;
+          margin-bottom: 8px;
         }
         .shopAddress {
           display: block;
           float: none;
           color: #ccc;
-          font-size: 0.8rem;
-          margin-top: 0.3rem;
+          font-size: 12px;
         }
 
         .ticket {
           display: block;
-          margin-top: 0.3rem;
-          font-size: 0.8rem;
+          margin-top: 5px;
+          font-size: 12px;
           color: #666;
         }
 
         .ticketInfo {
           display: block;
-          margin-top: 0.3rem;
-          font-size: 0.8rem;
+          margin-top: 5px;
+          font-size: 12px;
           color: #008dff;
+          line-height: 15px;
         }
       }
 
@@ -194,26 +193,26 @@
         clear: both;
         .detail {
           display: block;
-          font-size: 1.5rem;
-          padding: 0.5rem 1rem 0.5rem 1rem;
+          font-size: 20px;
+          padding: 8px 16px 8px 16px;
           border-top: 1px solid #ddd;
         }
         .orderTable {
           width: 100%;
           max-width: 100%;
           background-color: white;
-          font-size: 0.9rem;
+          font-size: 15px;
           color: #666;
 
           th, td {
             border: 1px solid #ddd;
             vertical-align: middle;
             text-align: center;
-            padding: 0.5rem;
+            padding: 8px;
           }
 
           .left {
-            width: 6rem;
+            width: 60px;
             text-align: right;
           }
         }

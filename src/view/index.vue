@@ -44,47 +44,44 @@
 ul li {
 	list-style: none;
 	width: 100%;
-	border-top: 0.1rem solid #ccc;
+	border-top: 1px solid #ccc;
 	background-color: #fff;
 	overflow: hidden;
 	float: left;
-	padding-top: 0.75rem;
-	padding-left: 0.75rem;
-	padding-right: 0.75rem;
-	padding-bottom: 0.5rem;
+	padding: 5px;
 }
 
 .shopimg {
-	width: 5rem;
+	width: 90px;
 	float: left;
 }
 
 .shopDetail {
 	float: left;
-	padding-top: 0.3rem;
-	padding-left: 0.5rem;
+	padding-top: 2px;
+	padding-left: 8px;
 	overflow: hidden;
 	.shopName {
 		display: block;
 		float: none;
 		font-family: '微软雅黑';
-		font-size: 1.25rem;
-		margin-bottom: 0.4rem;
+		font-size: 20px;
+		margin-bottom: 8px;
 	}
 	.shopAddress {
 		display: block;
 		float: none;
 		color: #ccc;
-		margin-top: 0.3rem;
-		margin-bottom: 0.6rem;
+		margin-top: 9px;
+		margin-bottom: 9px;
 	}
 	.price {
-		font-size: 2rem;
+		font-size: 32px;
 		color: red;
 	}
 	.shopPrice {
 		color: #ccc;
-		margin-left: 2rem;
+		margin-left: 32px;
 	}
 }
 </style>

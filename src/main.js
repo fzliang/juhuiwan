@@ -9,6 +9,7 @@ import Qs from 'qs'
 import 'element-ui/lib/theme-default/index.css'
 import '../static/reset.css'
 
+
 Vue.prototype.$http = axios.create({
   baseURL: 'http://47.95.10.5:8888',
   timeOut: 5000,

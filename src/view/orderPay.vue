@@ -119,49 +119,51 @@
 
   #orderInfo {
     width: 100%;
-    border-top: 0.1rem solid #ccc;
+    border-top: 1px solid #ccc;
     background-color: #fff;
     overflow: hidden;
     float: left;
-    padding: 0.75rem;
+    padding: 12px;
   }
 
   .shopimg {
-    width: 5rem;
+    width: 80px;
     float: left;
   }
 
   .shopDetail {
-    padding-top: 0.3rem;
-    padding-left: 0.5rem;
+    padding-top: 5px;
+    padding-left: 8px;
     overflow: hidden;
-    padding-right: 1.5rem;
+    padding-right: 24px;
     .shopName {
       display: block;
       float: none;
       font-family: '微软雅黑';
-      font-size: 1.25rem;
-      margin-bottom: 0.4rem;
+      font-size: 20px;
+      margin-bottom: 7px;
     }
     .shopAddress {
       display: block;
       float: none;
       color: #ccc;
-      font-size: 0.8rem;
-      margin-top: 0.3rem;
+      font-size: 12px;
+      margin-top: 10px;
+      margin-top: 8px;
     }
 
     .ticket {
       display: block;
-      margin-top: 0.3rem;
-      font-size: 0.8rem;
+      margin-top: 5px;
+      font-size: 12px;
       color: #666;
     }
 
     .ticketInfo {
       display: block;
-      margin-top: 0.3rem;
-      font-size: 0.8rem;
+      margin-top: 5px;
+      font-size: 12px;
+      line-height:13px;
       color: #fc0;
     }
   }
@@ -178,7 +180,7 @@
         border: 1px solid #ddd;
         vertical-align: middle;
         text-align: center;
-        padding: 0.5rem;
+        padding: 8px;
       }
     }
 
@@ -186,18 +188,18 @@
   }
   .orderFooter {
     position: fixed;
-    bottom: 0rem;
+    bottom: 0;
     background-color: #fff;
     width: 100%;
-    height: 3rem;
-    line-height: 3rem;
+    height: 48px;
+    line-height: 48px;
     border-top: 1px solid #ccc;
     .count {
-      padding: 1rem
+      padding: 16px;
     }
     .commit {
       position: absolute;
-      right: 1rem;
+      right: 16px;
     }
   }
 </style>

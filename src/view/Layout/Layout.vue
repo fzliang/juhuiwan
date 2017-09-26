@@ -49,8 +49,8 @@ export default {
 
 #content {
   position: absolute;
-  top: 3rem;
-  bottom: 3rem;
+  top: 50px;
+  bottom: 50px;
   overflow-y: scroll;
   overflow-x: hidden;
   margin: 0 auto;

@@ -48,8 +48,8 @@ export default {
   width: 100%;
   #app-order-select {
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100%;
     background: #fff;
   }

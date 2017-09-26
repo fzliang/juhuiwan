@@ -75,36 +75,36 @@
     list-style: none;
     background-color: #fff;
     width: 100%;
-    border-top: 0.1rem solid #ccc;
+    border-top:  1px solid #ccc;
     float: left;
-    height: 6rem;
-    padding: 0.75rem;
-    padding-bottom: 0rem;
+    height: 95px;
+    padding: 6px 6px 0 6px
   }
 
   .shopImg {
-    width: 5.2rem;
+    width: 85px;
     float: left;
   }
 
   .usedImg {
     position: absolute;
-    width: 5.3rem;
-    top: 0rem;
-    right: 0.75rem;
+    width: 90px;
+    top: 0;
+    right: 6px;
   }
 
   .shopDetail {
+    float: left;
     position: absolute;
-    padding-top: 0.3rem;
-    left: 6.4rem;
-    right: 0rem;
+    padding-top: 0;
+    left: 100px;
+    right: 0;
     .shopName {
       display: block;
       float: none;
       font-family: '微软雅黑';
-      font-size: 1.25rem;
-      margin-bottom: 0.4rem;
+      font-size: 20px;
+      margin-bottom: 3px;
     }
     .shopAddress {
       display: block;
@@ -117,10 +117,11 @@
       color: #ccc;
     }
     .lastTime {
+
       display: inline-block;
       font-family: '微软雅黑';
       color: #008dff;
-      margin-top: 0.4rem;
+      margin-top: 7px;
     }
   }
 

@@ -31,7 +31,7 @@ export default {
 
 #orderContent {
   position: absolute;
-  top: 3rem;
+  top: 50px;
   bottom: 0rem;
   overflow-y: scroll;
   overflow-x: hidden;

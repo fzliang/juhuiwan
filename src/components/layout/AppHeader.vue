@@ -24,28 +24,27 @@ export default {
 #app-header {
 	position: fixed;
 	top: 0;
-	height: 3rem;
+	height: 50px;
 	background: #008dff;
 	width: 100%;
 	z-index: 9999;
-	line-height: 3rem;
-	font-size: 2rem;
-  padding-left: 0.52rem;
+  padding-left: 13px;
 
 	#back {
-		font-size: 1.6rem;
+		font-size: 20px;
 		color: #fff;
 	}
 	#app-header-title {
-		display: inline-block;
-		font-size: 1.6rem;
+    display: inline;
+    line-height:52px;
+		font-size: 22px;
 		color: #fff;
 		font-family: '微软雅黑';
 	}
 	#app-header-sub {
 		display: inline-block;
 		color: #fff;
-		font-size: 1rem;
+		font-size: 15px;
 		font-family: '微软雅黑';
 	}
 }
